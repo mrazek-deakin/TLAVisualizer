@@ -1,0 +1,114 @@
+digraph test {
+"/\\ varA = FALSE
+/\\ varB = FALSE
+" -> "/\\ varA = TRUE
+/\\ varB = TRUE
+" [label="/\\  doA_true
+/\\  doB_true
+"];
+"/\\ varA = FALSE
+/\\ varB = FALSE
+" -> "/\\ varA = TRUE
+/\\ varB = FALSE
+" [label="/\\  doA_true
+/\\  doB_false
+"];
+"/\\ varA = FALSE
+/\\ varB = FALSE
+" -> "/\\ varA = FALSE
+/\\ varB = TRUE
+" [label="/\\  doA_false
+/\\  doB_true
+"];
+"/\\ varA = FALSE
+/\\ varB = FALSE
+" -> "/\\ varA = FALSE
+/\\ varB = FALSE
+" [label="/\\  doA_false
+/\\  doB_false
+"];
+"/\\ varA = TRUE
+/\\ varB = TRUE
+" -> "/\\ varA = TRUE
+/\\ varB = TRUE
+" [label="/\\  doA_true
+/\\  doB_true
+"];
+"/\\ varA = TRUE
+/\\ varB = TRUE
+" -> "/\\ varA = TRUE
+/\\ varB = FALSE
+" [label="/\\  doA_true
+/\\  doB_false
+"];
+"/\\ varA = TRUE
+/\\ varB = TRUE
+" -> "/\\ varA = FALSE
+/\\ varB = TRUE
+" [label="/\\  doA_false
+/\\  doB_true
+"];
+"/\\ varA = TRUE
+/\\ varB = TRUE
+" -> "/\\ varA = FALSE
+/\\ varB = FALSE
+" [label="/\\  doA_false
+/\\  doB_false
+"];
+"/\\ varA = TRUE
+/\\ varB = FALSE
+" -> "/\\ varA = TRUE
+/\\ varB = TRUE
+" [label="/\\  doA_true
+/\\  doB_true
+"];
+"/\\ varA = TRUE
+/\\ varB = FALSE
+" -> "/\\ varA = TRUE
+/\\ varB = FALSE
+" [label="/\\  doA_true
+/\\  doB_false
+"];
+"/\\ varA = TRUE
+/\\ varB = FALSE
+" -> "/\\ varA = FALSE
+/\\ varB = TRUE
+" [label="/\\  doA_false
+/\\  doB_true
+"];
+"/\\ varA = TRUE
+/\\ varB = FALSE
+" -> "/\\ varA = FALSE
+/\\ varB = FALSE
+" [label="/\\  doA_false
+/\\  doB_false
+"];
+"/\\ varA = FALSE
+/\\ varB = TRUE
+" -> "/\\ varA = TRUE
+/\\ varB = TRUE
+" [label="/\\  doA_true
+/\\  doB_true
+"];
+"/\\ varA = FALSE
+/\\ varB = TRUE
+" -> "/\\ varA = TRUE
+/\\ varB = FALSE
+" [label="/\\  doA_true
+/\\  doB_false
+"];
+"/\\ varA = FALSE
+/\\ varB = TRUE
+" -> "/\\ varA = FALSE
+/\\ varB = TRUE
+" [label="/\\  doA_false
+/\\  doB_true
+"];
+"/\\ varA = FALSE
+/\\ varB = TRUE
+" -> "/\\ varA = FALSE
+/\\ varB = FALSE
+" [label="/\\  doA_false
+/\\  doB_false
+"];
+}

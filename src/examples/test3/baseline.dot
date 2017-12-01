@@ -1,0 +1,50 @@
+digraph test {
+"/\\ varA = FALSE
+/\\ varB = FALSE
+" -> "/\\ varA = TRUE
+/\\ varB = FALSE
+" [label="toggleA\[ varA# TRUE
+\]"];
+"/\\ varA = FALSE
+/\\ varB = FALSE
+" -> "/\\ varA = FALSE
+/\\ varB = TRUE
+" [label="toggleB\[ varB= FALSE
+\]"];
+"/\\ varA = TRUE
+/\\ varB = FALSE
+" -> "/\\ varA = FALSE
+/\\ varB = FALSE
+" [label="toggleA\[ varA= TRUE
+\]"];
+"/\\ varA = TRUE
+/\\ varB = FALSE
+" -> "/\\ varA = TRUE
+/\\ varB = TRUE
+" [label="toggleB\[ varB= FALSE
+\]"];
+"/\\ varA = FALSE
+/\\ varB = TRUE
+" -> "/\\ varA = TRUE
+/\\ varB = TRUE
+" [label="toggleA\[ varA# TRUE
+\]"];
+"/\\ varA = FALSE
+/\\ varB = TRUE
+" -> "/\\ varA = FALSE
+/\\ varB = FALSE
+" [label="toggleB\[ varB= TRUE
+\]"];
+"/\\ varA = TRUE
+/\\ varB = TRUE
+" -> "/\\ varA = FALSE
+/\\ varB = TRUE
+" [label="toggleA\[ varA= TRUE
+\]"];
+"/\\ varA = TRUE
+/\\ varB = TRUE
+" -> "/\\ varA = TRUE
+/\\ varB = FALSE
+" [label="toggleB\[ varB= TRUE
+\]"];
+}
